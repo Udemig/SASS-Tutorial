@@ -1,0 +1,130 @@
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: aquamarine;
+  color: red;
+}
+nav ul {
+  background-color: bisque;
+  margin: 10px;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: cadetblue;
+}
+nav ul li a {
+  padding: 10px;
+}
+nav ul li a:hover {
+  background-color: brown;
+  color: white;
+}
+
+div {
+  background-color: rgb(179, 197, 194);
+  color: green;
+}
+
+p {
+  color: rgb(184, 104, 104);
+}
+
+.ozel-btn-ilk {
+  color: red;
+  padding: 15px;
+  margin: 20px;
+  background-color: wheat;
+  border-radius: 8px;
+  width: 100px/2;
+  height: 40px;
+  border: blue solid 4px;
+}
+.ozel-btn-ilk:hover {
+  background-color: firebrick;
+  color: white;
+  transform: rotate(20deg);
+  transition: 0.3s;
+}
+
+.ozel-btn-iki {
+  color: red;
+  padding: 15px;
+  margin: 20px;
+  background-color: wheat;
+  border-radius: 8px;
+  width: 100px/2;
+  height: 40px;
+  border: red dotted 2px;
+}
+.ozel-btn-iki:hover {
+  background-color: tomato;
+  color: chartreuse;
+}
+
+.cocuk-1 {
+  background-color: royalblue;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cocuk-2 {
+  background-color: royalblue;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cocuk-3 {
+  background-color: royalblue;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cocuk-4 {
+  background-color: royalblue;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cocuk-5 {
+  background-color: royalblue;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cocuk-1:hover {
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}
+
+.cocuk-2:hover {
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}
+
+.cocuk-2 {
+  background-color: bisque;
+  color: red;
+}
+
+.cocuk-3 {
+  background-color: bisque;
+  color: red;
+}
+
+.cocuk-5 {
+  background-color: bisque;
+  color: red;
+}/*# sourceMappingURL=stlye.css.map */

@@ -1,0 +1,29 @@
+
+%align-box-to-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: aquamarine;
+    color: red;
+    ul{
+        background-color: bisque;
+        margin: 10px;
+        @extend %align-box-to-center;
+        li{
+            list-style-type: none;
+            margin: 10px;
+            padding: 10px;
+            background-color: cadetblue;
+            a{
+                padding: 10px;
+                &:hover{
+                    background-color: brown;
+                    color: white;
+                }
+            }
+        }
+    }
+}
